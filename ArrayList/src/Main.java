@@ -23,17 +23,19 @@ public class Main {
 		// System.out.println(arrayList.get(5));
 		// System.out.println(arrayList.size());
 
-		//arrayList.remove("Metallica"); // remove icerisine index te verebiliriz değerin kendisini de verebiliriz .
-		//arrayList.remove(1);
+		// arrayList.remove("Metallica"); // remove icerisine index te verebiliriz
+		// değerin kendisini de verebiliriz .
+		// arrayList.remove(1);
 
-		//System.out.println(arrayList.indexOf("Metallica")); // Metallicayı ilk gördüğü yerin indexini verir . Yani 0. elemandır .
-															
-		//System.out.println(arrayList.lastIndexOf("Metallica"));
-		//System.out.println(arrayList.indexOf("Dream Theater"));
+		// System.out.println(arrayList.indexOf("Metallica")); // Metallicayı ilk
+		// gördüğü yerin indexini verir . Yani 0. elemandır .
 
-		//for (int i = 0; i < arrayList.size(); i++) {
-			//System.out.println(arrayList.get(i));
-		//}
+		// System.out.println(arrayList.lastIndexOf("Metallica"));
+		// System.out.println(arrayList.indexOf("Dream Theater"));
+
+		// for (int i = 0; i < arrayList.size(); i++) {
+		// System.out.println(arrayList.get(i));
+		// }
 
 		arrayList.set(4, "Megadeth");
 
