@@ -15,31 +15,36 @@ public class Main {
 			System.out.println(b.charAt(i));
 		}
 
-		System.out.println(b.startsWith("Mu")); //Cikti : true // Belirilen ifade ile mi başlıyor ?
-		System.out.println(b.endsWith("CO")); //Cikti : false // Belirilen ifade ile mi bitiyor ?
-		System.out.println(b.indexOf('a')); //Cikti : 4 // Belirtilen karakter String değişkeni içerisinde hangi indekste ? Eğer
+		System.out.println(b.startsWith("Mu")); // Cikti : true // Belirilen ifade ile mi başlıyor ?
+		System.out.println(b.endsWith("CO")); // Cikti : false // Belirilen ifade ile mi bitiyor ?
+		System.out.println(b.indexOf('a')); // Cikti : 4 // Belirtilen karakter String değişkeni içerisinde hangi
+											// indekste ? Eğer
 											// varsa indeks numarasını yoksa -1 değerini dönderir.
-		System.out.println(b.indexOf('b')); //Cikti : -1
-		System.out.println(b.lastIndexOf('a')); //Cikti : 6 // Belirtilen karakter String değişkeni içerisinde sondan kaçıncı
+		System.out.println(b.indexOf('b')); // Cikti : -1
+		System.out.println(b.lastIndexOf('a')); // Cikti : 6 // Belirtilen karakter String değişkeni içerisinde sondan
+												// kaçıncı
 												// indekste ? Eğer
 												// varsa indeks numarasını yoksa -1 değerini dönderir.
-		System.out.println(b.lastIndexOf('b')); //Cikti : -1
-		System.out.println(b.toLowerCase()); //Cikti : mustafa // Verilen string değişkenin tüm harflarini küçültür
-		System.out.println(b.toUpperCase()); //Cikti : MUSTAFA // Verilen string değişkenin tüm harflarini büyültür
+		System.out.println(b.lastIndexOf('b')); // Cikti : -1
+		System.out.println(b.toLowerCase()); // Cikti : mustafa // Verilen string değişkenin tüm harflarini küçültür
+		System.out.println(b.toUpperCase()); // Cikti : MUSTAFA // Verilen string değişkenin tüm harflarini büyültür
 
 		String c = "1923";
-		int d = Integer.parseInt(c); // Cikti : 1923 // Verilen String değeri integer bir değere dönüştürme işlemi yapar .
+		int d = Integer.parseInt(c); // Cikti : 1923 // Verilen String değeri integer bir değere dönüştürme işlemi
+										// yapar .
 		System.out.println(d);
 
 		int e = 1923;
-		String f = String.valueOf(e); // Cikti : 1923 // Verilen int değeri String bir değere dönüştürme işlemi yapar .
+		String f = String.valueOf(e); // Cikti : 1923 // Verilen int değeri String bir değere dönüştürme işlemi yapar
+
 		System.out.println(f);
 
 		String a1 = "Mustafa";
 		String b1 = "Mustafa";
 
 		if (a1 == b1) {
-			System.out.println("Esitler"); //Cikti : Esitler // Eşitlerdir çünkü bunlar bellekte aynı yeri gösteriyorlar . Java bunları
+			System.out.println("Esitler"); // Cikti : Esitler // Eşitlerdir çünkü bunlar bellekte aynı yeri
+											// gösteriyorlar . Java bunları
 											// öyle yerleştirir.
 		}
 
@@ -53,41 +58,11 @@ public class Main {
 		}
 
 		if (c1.equals(d1)) {
-			System.out.println("Icerikleri Esitler"); // Cikti : Icerikleri Esitler // Eşitlerdir çünkü bunların içerikleri aynı şeydir .
+			System.out.println("Icerikleri Esitler"); // Cikti : Icerikleri Esitler // Eşitlerdir çünkü bunların
+														// içerikleri aynı şeydir .
 		} else {
 			System.out.println("Icerikleri Esit Degiller");
 		}
 	}
 
 }
-
-			/* CIKTILAR 
-			 * 
-			Mustafa
-			Harf Sayisi : 7
-			0.indeks : M
-			2.indeks : s
-			Son eleman : a
-			M
-			u
-			s
-			t
-			a
-			f
-			a
-			true
-			false
-			4
-			-1
-			6
-			-1
-			mustafa
-			MUSTAFA
-			1923
-			1923
-			Esitler
-			Esitler
-			Icerikleri Esitler
-			
-			 * 
-			 * */
