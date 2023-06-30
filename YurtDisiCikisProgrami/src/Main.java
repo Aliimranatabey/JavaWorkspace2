@@ -8,7 +8,7 @@ public class Main {
 		String sartlar = "Yurt Disi Cikis Kurallari...\n" + "Herhangi bir siyasi yasaginizin bulunmamasi gerekiyor...\n"
 				+ "15 TL harc bedelinizi tam olarak yatirmaniz gerekiyor...\n"
 				+ "Gideceginiz ulkeye vizenizin bulunmasi gerekiyor...";
-		String message = "Yurtdisi Sartlarindan hepsini saglamaniz gerekiyor";
+		String message = "Yurtdisi Sartlarindan hepsini saglamaniz gerekiyor";	
 
 		while (true) {
 			System.out.println("************************************");
