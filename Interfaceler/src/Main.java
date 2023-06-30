@@ -19,6 +19,7 @@ public class Main {
 		System.out.println(muhendis2.mezuniyetOrtalamasi(2.31));
 		muhendis2.isTecrubesi(tecrube1);
 		muhendis2.referansGetir(referans);
+		muhendis2.calis();
 
 	}
 

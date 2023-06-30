@@ -1,5 +1,5 @@
 
-public class MakineMuhendisi implements IMuhendis {
+public class MakineMuhendisi implements IMuhendis ,ICalisma{
 
 	private boolean askerlik;
 	private boolean adliSicil;
@@ -41,9 +41,9 @@ public class MakineMuhendisi implements IMuhendis {
 	public void isTecrubesi(String[] array) {
 
 		if (array.length == 0) {
-			System.out.println("Herhangi bir iş tecrübem bulunmuyor.");
+			System.out.println("Herhangi bir is tecrübem bulunmuyor.");
 		} else {
-			System.out.println("Makine Mühendisi Olarak Su Sirketlerde Calistim ...");
+			System.out.println("Makine Muhendisi Olarak Su Sirketlerde Calistim ...");
 			for (int i = 0; i < array.length; i++) {
 
 				System.out.println(array[i]);
@@ -56,15 +56,22 @@ public class MakineMuhendisi implements IMuhendis {
 	public void referansGetir(String[] array) {
 
 		if (array.length == 0) {
-			System.out.println("Herhangi bir referansım bulunmuyor.");
+			System.out.println("Herhangi bir referansim bulunmuyor.");
 		} else {
-			System.out.println("Referanslarım ...");
+			System.out.println("Referanslarim ...");
 			for (int i = 0; i < array.length; i++) {
 
 				System.out.println(array[i]);
 
 			}
 		}
+	}
+
+	@Override
+	public void calis() {
+		
+		System.out.println("Makine Muhendisi Calisiyor...");
+		
 	}
 
 }
