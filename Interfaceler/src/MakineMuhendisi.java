@@ -1,5 +1,5 @@
 
-public class MakineMuhendisi implements IMuhendis ,ICalisma{
+public class MakineMuhendisi implements IMuhendis, ICalisma {
 
 	private boolean askerlik;
 	private boolean adliSicil;
@@ -69,9 +69,9 @@ public class MakineMuhendisi implements IMuhendis ,ICalisma{
 
 	@Override
 	public void calis() {
-		
+
 		System.out.println("Makine Muhendisi Calisiyor...");
-		
+
 	}
 
 }
