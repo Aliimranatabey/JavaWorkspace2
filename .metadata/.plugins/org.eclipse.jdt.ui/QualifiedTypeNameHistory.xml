@@ -3,4 +3,13 @@
     <fullyQualifiedTypeName name="Sarkicilar"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="IMuhendis"/>
+    <fullyQualifiedTypeName name="MakineMuhendisi"/>
+    <fullyQualifiedTypeName name="ICalisma"/>
+    <fullyQualifiedTypeName name="IYurtDisiKurallari"/>
+    <fullyQualifiedTypeName name="SignUpManager"/>
+    <fullyQualifiedTypeName name="IUserCheckService"/>
+    <fullyQualifiedTypeName name="AgeUserCheckService"/>
+    <fullyQualifiedTypeName name="ComplexUserCheckService"/>
 </qualifiedTypeNameHistroy>
