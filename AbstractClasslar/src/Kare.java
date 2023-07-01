@@ -13,5 +13,9 @@ public class Kare extends Sekil {
 		System.out.println(getIsim() + " alani " + (kenar * kenar) + " dir.");
 
 	}
+	
+	public void cevreHesapla() {
+		System.out.println(getIsim()+" in cevresi "+(4*kenar));
+	}
 
 }
