@@ -29,16 +29,16 @@ public class Main {
 
 		System.out.println("***************************************************");
 
-		AOgrenci aOgrenci = new AOgrenci("Mustafa Murat Coskun",314) {
+		AOgrenci aOgrenci = new AOgrenci("Mustafa Murat Coskun", 314) {
 
 			@Override
 			void kayitYaptir() {
-				
-				System.out.println("Kayit yapiliyor... "+"Isim : "+getIsim()+" Numara : "+getNumara());
+
+				System.out.println("Kayit yapiliyor... " + "Isim : " + getIsim() + " Numara : " + getNumara());
 
 			}
 		};
-		
+
 		aOgrenci.kayitYaptir();
 		aOgrenci.selamla();
 	}
@@ -53,43 +53,32 @@ public class Main {
 	// interfaceden farkli olarak govdeli methot bulundurdugu icin main methodu
 	// icersinde cagrildiginda hata almamasi icin "static" olarak tanimlanmasi
 	// gerekmektedir .
-	
+
 	public static abstract class AOgrenci {
-		
+
 		private String isim;
 		private int numara;
-		
-		
+
 		public AOgrenci(String isim, int numara) {
 			this.isim = isim;
 			this.numara = numara;
 		}
-		
-		
 
 		public String getIsim() {
 			return isim;
 		}
 
-
-
 		public void setIsim(String isim) {
 			this.isim = isim;
 		}
-
-
 
 		public int getNumara() {
 			return numara;
 		}
 
-
-
 		public void setNumara(int numara) {
 			this.numara = numara;
 		}
-
-
 
 		abstract void kayitYaptir();
 
