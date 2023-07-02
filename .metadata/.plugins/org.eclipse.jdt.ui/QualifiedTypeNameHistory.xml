@@ -12,4 +12,8 @@
     <fullyQualifiedTypeName name="IUserCheckService"/>
     <fullyQualifiedTypeName name="AgeUserCheckService"/>
     <fullyQualifiedTypeName name="ComplexUserCheckService"/>
+    <fullyQualifiedTypeName name="Daire"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="Sekil"/>
+    <fullyQualifiedTypeName name="Seyirci"/>
 </qualifiedTypeNameHistroy>
