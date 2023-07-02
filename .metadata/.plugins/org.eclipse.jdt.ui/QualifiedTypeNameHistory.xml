@@ -13,7 +13,17 @@
     <fullyQualifiedTypeName name="AgeUserCheckService"/>
     <fullyQualifiedTypeName name="ComplexUserCheckService"/>
     <fullyQualifiedTypeName name="Daire"/>
-    <fullyQualifiedTypeName name="Main"/>
     <fullyQualifiedTypeName name="Sekil"/>
     <fullyQualifiedTypeName name="Seyirci"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Matematik.Faktoriyel"/>
+    <fullyQualifiedTypeName name="Matematik.Asal"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="Matematik.Alan.DariAlan"/>
+    <fullyQualifiedTypeName name="Matematik"/>
+    <fullyQualifiedTypeName name="Matematik.Alan"/>
+    <fullyQualifiedTypeName name="Main.IOgrenci"/>
+    <fullyQualifiedTypeName name="Main.AOgrenci"/>
+    <fullyQualifiedTypeName name="Problem.Matematik"/>
+    <fullyQualifiedTypeName name="Problem.Fizik"/>
 </qualifiedTypeNameHistroy>
