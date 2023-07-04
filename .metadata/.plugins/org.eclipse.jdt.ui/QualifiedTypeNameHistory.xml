@@ -31,4 +31,6 @@
     <fullyQualifiedTypeName name="IntegerYazdir"/>
     <fullyQualifiedTypeName name="OgrenciYazdir"/>
     <fullyQualifiedTypeName name="YazdirmaSinifi"/>
+    <fullyQualifiedTypeName name="Sayisal"/>
+    <fullyQualifiedTypeName name="EsitAgirlik"/>
 </qualifiedTypeNameHistroy>
