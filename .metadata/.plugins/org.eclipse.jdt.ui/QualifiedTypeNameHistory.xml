@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="Sarkicilar"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="IMuhendis"/>
@@ -26,4 +25,10 @@
     <fullyQualifiedTypeName name="Main.AOgrenci"/>
     <fullyQualifiedTypeName name="Problem.Matematik"/>
     <fullyQualifiedTypeName name="Problem.Fizik"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="CharYazdir"/>
+    <fullyQualifiedTypeName name="StringYazdir"/>
+    <fullyQualifiedTypeName name="IntegerYazdir"/>
+    <fullyQualifiedTypeName name="OgrenciYazdir"/>
+    <fullyQualifiedTypeName name="YazdirmaSinifi"/>
 </qualifiedTypeNameHistroy>
