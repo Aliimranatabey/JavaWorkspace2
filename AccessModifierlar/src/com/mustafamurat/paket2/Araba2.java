@@ -1,6 +1,6 @@
 package com.mustafamurat.paket2;
 
-public class Araba {
+class Araba2 {
 
 	public String model = "Renault";
 	public String renk = "Gumus";
